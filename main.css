@@ -1,0 +1,86 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff;
+}
+
+.slots {
+  display: flex;
+}
+
+.slot {
+  width: 100px;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 4rem;
+
+  margin: 0 0.5rem ;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2) inset;
+  background: #fafafa;
+}
+
+.buttons {
+  margin: 2rem 0;
+}
+
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  border-radius: 4px;
+  
+  height: 36px;
+  padding: 8px 14px;
+  margin-bottom: 12px; 
+
+  color: #fff;
+  background: #007a5a;
+  
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.2rem;
+  
+  transition: all 75ms ease-in-out;
+}
+
+button:hover{
+  background: #006e52;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+}
+
+.intro {
+  text-align: center;
+
+  margin-bottom: 1rem;
+}
+
+.infos {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
